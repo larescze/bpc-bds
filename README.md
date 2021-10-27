@@ -1,2 +1,1 @@
-# bpc-bds
-BPC-BDS - Semester course project
+# BPC-BDS - Semester course project
