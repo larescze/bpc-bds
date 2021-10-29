@@ -32,7 +32,7 @@ Follow these steps:
 
 ## PostgreSQL
 
-For manual import, use files containing words ***db-postgres-schema*** and ***db-postgres-data*** with the highest ***V*** prefix from the `db/migration/` directory.
+For manual import, use files containing words ***db-postgres-schema*** and ***db-postgres-data*** with the highest ***V*** prefix from the `db/migration/postgresql` directory.
 
 Follow these steps:
 
