@@ -37,7 +37,7 @@ services:
       - xlazar15-postgres-db
     networks:
       - xlazar15-pentesting
-  xlazar15-flyway:
+  flyway:
     image: flyway/flyway:8
     environment:
       - FLYWAY_USER=postgres
