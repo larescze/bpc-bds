@@ -172,7 +172,7 @@ CREATE TABLE public.targets (
   id_category bigint NOT NULL,
   slug character varying(255) NOT NULL,
   title character varying(255) NOT NULL,
-  address character varying(512) NULL,
+    ADDress character varying(512) NULL,
   description character varying(100000),
   created_at timestamp without time zone NOT NULL,
   updated_at timestamp without time zone NOT NULL
@@ -230,72 +230,72 @@ ALTER TABLE public.logs OWNER TO postgres;
 -- Primary keys
 -- -----------------------------------------------------
 ALTER TABLE public.role_types
-ADD CONSTRAINT pk_role_types PRIMARY KEY (id_role_type);
+  ADD CONSTRAINT pk_role_types PRIMARY KEY (id_role_type);
 ALTER TABLE public.persons
-ADD CONSTRAINT pk_persons PRIMARY KEY (id_person);
+  ADD CONSTRAINT pk_persons PRIMARY KEY (id_person);
 ALTER TABLE public.roles
-ADD CONSTRAINT pk_roles PRIMARY KEY (id_role);
+  ADD CONSTRAINT pk_roles PRIMARY KEY (id_role);
 ALTER TABLE public.person2role
-ADD CONSTRAINT pk_person2role PRIMARY KEY (id_person, id_role);
+  ADD CONSTRAINT pk_person2role PRIMARY KEY (id_person, id_role);
 ALTER TABLE public.permissions
-ADD CONSTRAINT pk_permissions PRIMARY KEY (id_permission);
+  ADD CONSTRAINT pk_permissions PRIMARY KEY (id_permission);
 ALTER TABLE public.role2permission
-ADD CONSTRAINT pk_role2permission PRIMARY KEY (id_role, id_permission);
+  ADD CONSTRAINT pk_role2permission PRIMARY KEY (id_role, id_permission);
 ALTER TABLE public.projects
-ADD CONSTRAINT pk_projects PRIMARY KEY (id_project);
+  ADD CONSTRAINT pk_projects PRIMARY KEY (id_project);
 ALTER TABLE public.tasks
-ADD CONSTRAINT pk_tasks PRIMARY KEY (id_task);
+  ADD CONSTRAINT pk_tasks PRIMARY KEY (id_task);
 ALTER TABLE public.documents
-ADD CONSTRAINT pk_documents PRIMARY KEY (id_document);
+  ADD CONSTRAINT pk_documents PRIMARY KEY (id_document);
 ALTER TABLE public.document2project
-ADD CONSTRAINT pk_document2project PRIMARY KEY (id_document, id_project);
+  ADD CONSTRAINT pk_document2project PRIMARY KEY (id_document, id_project);
 ALTER TABLE public.person2project
-ADD CONSTRAINT pk_person2project PRIMARY KEY (id_person2project);
+  ADD CONSTRAINT pk_person2project PRIMARY KEY (id_person2project);
 ALTER TABLE public.categories
-ADD CONSTRAINT pk_categories PRIMARY KEY (id_category);
+  ADD CONSTRAINT pk_categories PRIMARY KEY (id_category);
 ALTER TABLE public.checklists
-ADD CONSTRAINT pk_checklists PRIMARY KEY (id_checklist);
+  ADD CONSTRAINT pk_checklists PRIMARY KEY (id_checklist);
 ALTER TABLE public.checklist2category
-ADD CONSTRAINT pk_checklist2category PRIMARY KEY (id_checklist, id_category);
+  ADD CONSTRAINT pk_checklist2category PRIMARY KEY (id_checklist, id_category);
 ALTER TABLE public.vulnerabilities
-ADD CONSTRAINT pk_vulnerabilities PRIMARY KEY (id_vulnerability);
+  ADD CONSTRAINT pk_vulnerabilities PRIMARY KEY (id_vulnerability);
 ALTER TABLE public.targets
-ADD CONSTRAINT pk_targets PRIMARY KEY (id_target);
+  ADD CONSTRAINT pk_targets PRIMARY KEY (id_target);
 ALTER TABLE public.vulnerability2target
-ADD CONSTRAINT pk_vulnerability2target PRIMARY KEY (id_vulnerability, id_target);
+  ADD CONSTRAINT pk_vulnerability2target PRIMARY KEY (id_vulnerability, id_target);
 ALTER TABLE public.person2task
-ADD CONSTRAINT pk_person2task PRIMARY KEY (id_person2project, id_task);
+  ADD CONSTRAINT pk_person2task PRIMARY KEY (id_person2project, id_task);
 ALTER TABLE public.target2task
-ADD CONSTRAINT pk_target2task PRIMARY KEY (id_target, id_task);
+  ADD CONSTRAINT pk_target2task PRIMARY KEY (id_target, id_task);
 ALTER TABLE public.document_metadata
-ADD CONSTRAINT pk_document_metadata PRIMARY KEY (id_document_metadata);
+  ADD CONSTRAINT pk_document_metadata PRIMARY KEY (id_document_metadata);
 ALTER TABLE public.logs
-ADD CONSTRAINT pk_logs PRIMARY KEY (id_log);
+  ADD CONSTRAINT pk_logs PRIMARY KEY (id_log);
 -- -----------------------------------------------------
 -- Unique Constraints
 -- -----------------------------------------------------
 ALTER TABLE public.role_types
-ADD CONSTRAINT uc_role_types UNIQUE (slug);
+  ADD CONSTRAINT uc_role_types UNIQUE (slug);
 ALTER TABLE public.persons
-ADD CONSTRAINT uc_persons UNIQUE (email);
+  ADD CONSTRAINT uc_persons UNIQUE (email);
 ALTER TABLE public.roles
-ADD CONSTRAINT uc_roles UNIQUE (slug);
+  ADD CONSTRAINT uc_roles UNIQUE (slug);
 ALTER TABLE public.permissions
-ADD CONSTRAINT uc_permissions UNIQUE (slug);
+  ADD CONSTRAINT uc_permissions UNIQUE (slug);
 ALTER TABLE public.projects
-ADD CONSTRAINT uc_projects UNIQUE (slug);
+  ADD CONSTRAINT uc_projects UNIQUE (slug);
 ALTER TABLE public.tasks
-ADD CONSTRAINT uc_tasks UNIQUE (slug);
+  ADD CONSTRAINT uc_tasks UNIQUE (slug);
 ALTER TABLE public.documents
-ADD CONSTRAINT uc_document_metadata UNIQUE (document_name, document_path);
+  ADD CONSTRAINT uc_document_metadata UNIQUE (document_name, document_path);
 ALTER TABLE public.categories
-ADD CONSTRAINT uc_categories UNIQUE (slug);
+  ADD CONSTRAINT uc_categories UNIQUE (slug);
 ALTER TABLE public.checklists
-ADD CONSTRAINT uc_checklists UNIQUE (slug);
+  ADD CONSTRAINT uc_checklists UNIQUE (slug);
 ALTER TABLE public.vulnerabilities
-ADD CONSTRAINT uc_vulnerabilities UNIQUE (slug);
+  ADD CONSTRAINT uc_vulnerabilities UNIQUE (slug);
 ALTER TABLE public.targets
-ADD CONSTRAINT uc_targets UNIQUE (slug);
+  ADD CONSTRAINT uc_targets UNIQUE (slug);
 -- -----------------------------------------------------
 -- Unique Indexes
 -- -----------------------------------------------------
@@ -313,46 +313,46 @@ CREATE UNIQUE INDEX idx_targets_title ON public.targets(title);
 -- Foreign keys
 -- -----------------------------------------------------
 ALTER TABLE public.roles
-ADD CONSTRAINT fk_roles FOREIGN KEY (id_role_type) REFERENCES public.role_types(id_role_type);
+  ADD CONSTRAINT fk_roles FOREIGN KEY (id_role_type) REFERENCES public.role_types(id_role_type);
 ALTER TABLE public.person2role
-ADD CONSTRAINT fk_person2role1 FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
+  ADD CONSTRAINT fk_person2role1 FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
 ALTER TABLE public.person2role
-ADD CONSTRAINT fk_person2role2 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
+  ADD CONSTRAINT fk_person2role2 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
 ALTER TABLE public.role2permission
-ADD CONSTRAINT fk_role2permission1 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
+  ADD CONSTRAINT fk_role2permission1 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
 ALTER TABLE public.role2permission
-ADD CONSTRAINT fk_role2permission2 FOREIGN KEY (id_permission) REFERENCES public.permissions(id_permission);
+  ADD CONSTRAINT fk_role2permission2 FOREIGN KEY (id_permission) REFERENCES public.permissions(id_permission);
 ALTER TABLE public.tasks
-ADD CONSTRAINT fk_tasks_projects FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
+  ADD CONSTRAINT fk_tasks_projects FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
 ALTER TABLE public.documents
-ADD CONSTRAINT fk_documents FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
+  ADD CONSTRAINT fk_documents FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
 ALTER TABLE public.document2project
-ADD CONSTRAINT fk_document2project FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
+  ADD CONSTRAINT fk_document2project FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
 ALTER TABLE public.person2project
-ADD CONSTRAINT fk_person2project1 FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
+  ADD CONSTRAINT fk_person2project1 FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
 ALTER TABLE public.person2project
-ADD CONSTRAINT fk_person2project2 FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
+  ADD CONSTRAINT fk_person2project2 FOREIGN KEY (id_project) REFERENCES public.projects(id_project);
 ALTER TABLE public.person2project
-ADD CONSTRAINT fk_person2project3 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
+  ADD CONSTRAINT fk_person2project3 FOREIGN KEY (id_role) REFERENCES public.roles(id_role);
 ALTER TABLE public.checklist2category
-ADD CONSTRAINT fk_checklist2category1 FOREIGN KEY (id_checklist) REFERENCES public.checklists(id_checklist);
+  ADD CONSTRAINT fk_checklist2category1 FOREIGN KEY (id_checklist) REFERENCES public.checklists(id_checklist);
 ALTER TABLE public.checklist2category
-ADD CONSTRAINT fk_checklist2category2 FOREIGN KEY (id_category) REFERENCES public.categories(id_category);
+  ADD CONSTRAINT fk_checklist2category2 FOREIGN KEY (id_category) REFERENCES public.categories(id_category);
 ALTER TABLE public.targets
-ADD CONSTRAINT fk_targets FOREIGN KEY (id_category) REFERENCES public.categories(id_category);
+  ADD CONSTRAINT fk_targets FOREIGN KEY (id_category) REFERENCES public.categories(id_category);
 ALTER TABLE public.vulnerability2target
-ADD CONSTRAINT fk_vulnerability2target1 FOREIGN KEY (id_target) REFERENCES public.targets(id_target);
+  ADD CONSTRAINT fk_vulnerability2target1 FOREIGN KEY (id_target) REFERENCES public.targets(id_target);
 ALTER TABLE public.vulnerability2target
-ADD CONSTRAINT fk_vulnerability2target2 FOREIGN KEY (id_vulnerability) REFERENCES public.vulnerabilities(id_vulnerability);
+  ADD CONSTRAINT fk_vulnerability2target2 FOREIGN KEY (id_vulnerability) REFERENCES public.vulnerabilities(id_vulnerability);
 ALTER TABLE public.person2task
-ADD CONSTRAINT fk_person2task1 FOREIGN KEY (id_person2project) REFERENCES public.person2project(id_person2project);
+  ADD CONSTRAINT fk_person2task1 FOREIGN KEY (id_person2project) REFERENCES public.person2project(id_person2project);
 ALTER TABLE public.person2task
-ADD CONSTRAINT fk_person2task2 FOREIGN KEY (id_task) REFERENCES public.tasks (id_task);
+  ADD CONSTRAINT fk_person2task2 FOREIGN KEY (id_task) REFERENCES public.tasks (id_task);
 ALTER TABLE public.target2task
-ADD CONSTRAINT fk_target2task1 FOREIGN KEY (id_target) REFERENCES public.targets(id_target);
+  ADD CONSTRAINT fk_target2task1 FOREIGN KEY (id_target) REFERENCES public.targets(id_target);
 ALTER TABLE public.target2task
-ADD CONSTRAINT fk_target2task2 FOREIGN KEY (id_task) REFERENCES public.tasks(id_task);
+  ADD CONSTRAINT fk_target2task2 FOREIGN KEY (id_task) REFERENCES public.tasks(id_task);
 ALTER TABLE public.document_metadata
-ADD CONSTRAINT fk_document_metadata FOREIGN KEY (id_document) REFERENCES public.documents(id_document);
+  ADD CONSTRAINT fk_document_metadata FOREIGN KEY (id_document) REFERENCES public.documents(id_document);
 ALTER TABLE public.logs
-ADD CONSTRAINT fk_logs FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
+  ADD CONSTRAINT fk_logs FOREIGN KEY (id_person) REFERENCES public.persons(id_person);
