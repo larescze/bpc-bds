@@ -30,6 +30,23 @@ Follow these steps:
 6. Database tables are located at: `Databases > db-pentesting > Schemas > Public > Tables`
 7. ERD diagram is available at: `Databases > db-pentesting (right click) > Generate ERD`
 
+## PostgreSQL
+
+For manual import, use files containing words ***db-postgres-schema*** and ***db-postgres-data*** with the highest ***V*** prefix from the `db/migration/` directory.
+
+Follow these steps:
+
+1. Open pgAdmin
+2. Connect to Server
+3. Import migrations: `Tools > Query Tool > Open File > Upload File > Select`
+   1. Database schema  `Tools > Query Tool > Open File > Upload File > Select`
+   2. Database data  `Tools > Query Tool > Open File > Upload File > Select`
+
 ## MySQL
 
-Docker container is designed for PostgreSQL database. To import MySQL database, use files from `mysql` directory.
+Docker container is designed for PostgreSQL database. To import MySQL database, use files from the `mysql` directory.
+
+1. Open phpMyAdmin
+2. Import migrations:  `Import > Select file > Go`
+   1. Database schema: [db/migration/db-mysql-schema.sql](db/migration/db-mysql-schema.sql)
+   2. Database data: [db/migration/db-mysql-data.sql](db/migration/db-mysql-data.sql)
