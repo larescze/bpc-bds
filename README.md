@@ -10,8 +10,8 @@ Clone the repository:
 git clone https://github.com/larescze/bpc-bds-xlazar15.git
 ```
 Run the following command in the root directory:
-```shell
-$ docker-compose up
+```
+docker-compose up
 ```
 
 ## Run environmen
