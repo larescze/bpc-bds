@@ -134,17 +134,17 @@ INSERT INTO public.person2role (id_person, id_role)
 -- Data for table public.permissions
 -- -----------------------------------------------------
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
-    VALUES (1, 'read', 'Can read', '19990108', '19990108');
+  VALUES (1, 'read', 'Can read', '19990108', '19990108');
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
   VALUES (2, 'write', 'Can write', '19990108', '19990108');
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
   VALUES (3, 'invite', 'Can invite to project', '19990108', '19990108');
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
-  VALUES (3, 'create-task', 'Can create task', '19990108', '19990108');
+  VALUES (4, 'create-task', 'Can create task', '19990108', '19990108');
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
-  VALUES (4, 'create-checklist', 'Can create checklist', '19990108', '19990108');
+  VALUES (5, 'create-checklist', 'Can create checklist', '19990108', '19990108');
 INSERT INTO public.permissions (id_permission, slug, title, created_at, updated_at)
-  VALUES (5, 'view-vuln', 'Can see vulnerabilities', '19990108', '19990108');
+  VALUES (6, 'view-vuln', 'Can see vulnerabilities', '19990108', '19990108');
 -- -----------------------------------------------------
 -- Data for table public.role2permission
 -- -----------------------------------------------------
