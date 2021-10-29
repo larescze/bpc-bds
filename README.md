@@ -7,7 +7,7 @@ Database use case is located in the document in the `docs` directory, see file [
 
 Clone the repository: 
 ```
-git clone https://github.com/larescze/bpc-bds.git
+git clone https://github.com/larescze/bpc-bds-xlazar15.git
 ```
 Run the following command in the root directory:
 ```shell
