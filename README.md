@@ -19,14 +19,16 @@ $ docker-compose up
 Follow these steps:
 
 1. Make sure the docker container is up.
-2. Open pgAdmin [http://localhost:5080/browser/](http://localhost:5080/browser/);
-3. Click on: `Servers > Create > Server` fill the following fields:
+2. Open pgAdmin [http://localhost:5080/browser/](http://localhost:5080/browser/)
+3. Login with username **xlazar15@vut.cz** and password **postgres**
+4. Right click on: `Servers > Create > Server` fill the following fields:
    1. General > Name: **BPC-BDS-xlazar15**
    2. Connection > Host name: **xlazar15-db-postgres**
    3. Connection > Username: **postgres**
    4. Connection > Password: **postgres**
-4. Database tables are located at: `Databases > db-pentesting > Schemas > Public > Tables`
-5. ERD diagram is available at: `Databases > db-pentesting (right click) > Generate ERD`
+5. Database is located at: `Databases > db-pentesting`
+6. Database tables are located at: `Databases > db-pentesting > Schemas > Public > Tables`
+7. ERD diagram is available at: `Databases > db-pentesting (right click) > Generate ERD`
 
 ## MySQL
 
