@@ -1,7 +1,11 @@
 # BPC-BDS - Semester course project
 The database is used for management of penetration testing. Testers can create projects in the application and invite other users to join the project. The application includes all phases of penetration testing according to specific methodologies (e.g. OWASP, OSSTMM, PTES, ISSAF).
 
-Database use case is located in the document in the `docs` directory, see file [BPC_BDS_SP.pdf](docs/BPC_BDS_SP.pdf).
+The use case for the database can be found in the `docs` directory, see file [BPC_BDS_SP.pdf](docs/BPC_BDS_SP.pdf).
+
+Database schema (MySQL Workbench): [DB_Schema_MySQL-Workbench](docs/DB_Schema_MySQL-Workbench.pdf).
+
+Database schema (pgAdmin): [DB_Schema_pgAdmin](docs/DB_Schema_pgAdmin.png).
 
 ## Setup
 
