@@ -3,9 +3,9 @@ The database is used for management of penetration testing. Testers can create p
 
 The use case for the database can be found in the `docs` directory, see file [BPC_BDS_SP.pdf](docs/BPC_BDS_SP.pdf).
 
-Database schema (MySQL Workbench): [DB_Schema_MySQL-Workbench](docs/DB_Schema_MySQL-Workbench.pdf).
+Database schema (MySQL Workbench): [DB_Schema_MySQL-Workbench.pdf](docs/DB_Schema_MySQL-Workbench.pdf).
 
-Database schema (pgAdmin): [DB_Schema_pgAdmin](docs/DB_Schema_pgAdmin.png).
+Database schema (pgAdmin): [DB_Schema_pgAdmin.pdf](docs/DB_Schema_pgAdmin.pdf).
 
 ## Setup
 
