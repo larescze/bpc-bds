@@ -1,11 +1,19 @@
 # BPC-BDS - Semester course project
 The database is used for management of penetration testing. Testers can create projects in the application and invite other users to join the project. The application includes all phases of penetration testing according to specific methodologies (e.g. OWASP, OSSTMM, PTES, ISSAF).
 
-The use case for the database can be found in the `docs` directory, see file [BPC_BDS_SP.pdf](docs/BPC_BDS_SP.pdf).
+Semestral project repository: [https://github.com/larescze/bpc-bds-xlazar15](https://github.com/larescze/bpc-bds-xlazar15).
 
-Database schema (MySQL Workbench): [DB_Schema_MySQL-Workbench.pdf](docs/DB_Schema_MySQL-Workbench.pdf).
+## Docs
+The use case for the database can be found in the `docs` directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
 
-Database schema (pgAdmin): [DB_Schema_pgAdmin.pdf](docs/DB_Schema_pgAdmin.pdf).
+### PostgreSQL
+- Database schema (pgAdmin): [DB_Schema_pgAdmin.pdf](docs/DB_Schema_pgAdmin.pdf)
+- Database example (pgAdmin): [DB_pgAdmin](docs/DB_pgAdmin.pdf)
+
+### MySQL
+- Database schema (MySQL Workbench): [DB_Schema_MySQL-Workbench.pdf](docs/DB_Schema_MySQL-Workbench.pdf)
+- Database example (phpMyAdmin): [DB_phpMyAdmin.pdf](docs/DB_phpMyAdmin.pdf)
+
 
 ## Setup
 
@@ -34,7 +42,9 @@ Follow these steps:
 6. Database tables are located at: `Databases > db-pentesting > Schemas > Public > Tables`
 7. ERD diagram is available at: `Databases > db-pentesting (right click) > Generate ERD`
 
-## PostgreSQL
+## Manual imports
+
+### PostgreSQL
 
 For manual import, use files containing words ***db-postgres-schema*** and ***db-postgres-data*** with the highest ***V*** prefix from the `db/migration/postgresql` directory.
 
@@ -46,7 +56,7 @@ Follow these steps:
    1. Database schema  `Tools > Query Tool > Open File > Upload File > Select`
    2. Database data  `Tools > Query Tool > Open File > Upload File > Select`
 
-## MySQL
+### MySQL
 
 Docker container is designed for PostgreSQL database. To import MySQL database, use files from the `mysql` directory.
 
