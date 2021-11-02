@@ -64,3 +64,7 @@ Docker container is designed for PostgreSQL database. To import MySQL database, 
 2. Import migrations:  `Import > Select file > Go`
    1. Database schema: [db/migration/db-mysql-schema.sql](db/migration/db-mysql-schema.sql)
    2. Database data: [db/migration/db-mysql-data.sql](db/migration/db-mysql-data.sql)
+
+## Third Normal Form (3NF)
+
+This database is in 3rd normal form, which also means that database is in 2rd normal form (2NF) and first normal form (1NF). There is no transitive dependency for non-prime attributes and all non-primary key attributes are transitively dependent only on the primary key.
