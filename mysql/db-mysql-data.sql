@@ -139,7 +139,7 @@ INSERT INTO permissions (slug, title, created_at, updated_at)
   VALUES('write', 'Can write', '2021-10-29 15:00:00', '2021-10-29 15:00:00');
 INSERT INTO permissions (slug, title, created_at, updated_at)
   VALUES('invite', 'Can invite to project', '2021-10-29 15:00:00', '2021-10-29 15:00:00');
-INSERT INTO permissions (id_permission, slug, title, created_at, updated_at)
+INSERT INTO permissions (slug, title, created_at, updated_at)
   VALUES('create-task', 'Can create task', '2021-10-29 15:00:00', '2021-10-29 15:00:00');
 INSERT INTO permissions (slug, title, created_at, updated_at)
   VALUES('create-checklist', 'Can create checklist', '2021-10-29 15:00:00', '2021-10-29 15:00:00');

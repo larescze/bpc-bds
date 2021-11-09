@@ -43,7 +43,7 @@ services:
       - FLYWAY_USER=postgres
       - FLYWAY_PASSWORD=postgres
       - FLYWAY_URL=jdbc:postgresql://xlazar15-postgres-db:5432/db-pentesting
-      - FLYWAY_SCHEMAS=public
+      - FLYWAY_SCHEMAS=bds
     command: -locations=filesystem:/flyway/sql -connectRetries=300 migrate
     volumes:
       - ./db/migration/postgresql:/flyway/sql
