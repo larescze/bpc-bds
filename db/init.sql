@@ -1,11 +1,9 @@
 CREATE DATABASE db-pentesting OWNER postgres;
 
-CREATE SCHEMA public
+CREATE SCHEMA bds
     AUTHORIZATION postgres;
 
-COMMENT ON SCHEMA public
-    IS 'standard public schema';
+COMMENT ON SCHEMA bds
+    IS 'pentesting schema';
 
-GRANT ALL ON SCHEMA public TO PUBLIC;
-
-GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA bds TO postgres;
