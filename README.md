@@ -26,7 +26,7 @@ Run the following command in the root directory:
 docker-compose up
 ```
 
-## Run environmen
+## Run environment
 
 Follow these steps:
 
