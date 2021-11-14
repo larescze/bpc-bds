@@ -287,7 +287,9 @@ ALTER TABLE bds.projects
 ALTER TABLE bds.tasks
   ADD CONSTRAINT uc_tasks UNIQUE (slug);
 ALTER TABLE bds.documents
-  ADD CONSTRAINT uc_document_metadata UNIQUE (document_name, document_path);
+  ADD CONSTRAINT uc_documents UNIQUE (document_name, document_path);
+ALTER TABLE bds.document_metadata
+  ADD CONSTRAINT uc_document_metadata UNIQUE (id_document);  
 ALTER TABLE bds.categories
   ADD CONSTRAINT uc_categories UNIQUE (slug);
 ALTER TABLE bds.checklists
