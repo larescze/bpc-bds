@@ -4,7 +4,10 @@ The database is used for management of penetration testing. Testers can create p
 Semestral project repository: [https://github.com/larescze/bpc-bds-xlazar15](https://github.com/larescze/bpc-bds-xlazar15).
 
 ## Docs
-The use case for the database can be found in the `docs` directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
+The use case for the database can be found in the [docs](./docs) directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
+
+## SQL statements
+All advanced SQL queries can be found in the [staments](.statements) directory.
 
 ### PostgreSQL
 - Database schema (pgAdmin): [DB_Schema_pgAdmin.pdf](docs/DB_Schema_pgAdmin.pdf)

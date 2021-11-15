@@ -1,6 +1,6 @@
 # Project Assignment – SQL
 
-Here are all SQL statements from the [Project Assignment 2](./../docs/BPC_BDS_SP_Assignment_2.pdf).
+Here you can find all SQL statements from the [Project Assignment 2](./../docs/BPC_BDS_SP_Assignment_2.pdf).
 
 ## Statements – series of queries
 
@@ -258,19 +258,24 @@ CREATE UNIQUE INDEX idx_persons_email ON bds.persons(email);
 Indexes speed up a select, but slow down inserts, updates and deletes because the database engine have to write the index together with the data.
 
 #### Index speed performance
-Select all projects based on title without index
+Select all projects based on title without index:
 ```
-EXPLAIN SELECT title, description FROM bds.projects WHERE title = 'MUNI';
+EXPLAIN SELECT t.title, t.address, v2t.description FROM bds.targets t 
+  LEFT JOIN bds.vulnerability2target v2t ON v2t.id_target = t.id_target
+  WHERE t.title = 'Andalax';
 
-Execution time: 0.753 ms
+-- Hash Right Join  (cost=5.59..17.37 rows=134 width=535)
 ```
 
-Select all projects based on title with index
+Select all projects based on title with index:
 ```
-CREATE UNIQUE INDEX idx_projects_title ON bds.projects(title);
-EXPLAIN SELECT title, description FROM bds.projects WHERE title = 'MUNI';
+CREATE UNIQUE INDEX idx_targets_title ON bds.targets(title);
 
-Execution time: 0.171 ms
+EXPLAIN SELECT t.title, t.address, v2t.description FROM bds.targets t 
+  LEFT JOIN bds.vulnerability2target v2t ON v2t.id_target = t.id_target
+  WHERE t.title = 'Andalax';
+
+-- Hash Right Join  (cost=4.84..16.62 rows=4 width=535)
 ```
 
 ### Database procedure
@@ -317,7 +322,7 @@ CREATE VIEW bds.persons_view AS SELECT id_person, first_name, last_name, email, 
 
 ### Database materialized view
 Materialized views cache the result of a complex and expensive query so that someone can access the data without having to perform the query.
-They cannot be updated directly, and the query used to create the materialized view (see below) is stored in the same way as the view query.
+They cannot be updated directly, and the query used to create the materialized view (see screenshot below) is stored in the same way as the view query.
 They are useful if they are used frequently and the source needs to access them quickly.
 A materialized view can be refreshed periodically to create an updated version of the view.
 
