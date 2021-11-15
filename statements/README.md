@@ -4,7 +4,7 @@ Here are all SQL statements from the [Project Assignment 2](./../docs/BPC_BDS_SP
 
 ## Statements – series of queries
 
-### Retrieve only selected columns from the selected table:
+### Retrieve only selected columns from the selected table
 ```
 SELECT first_name, last_name, email FROM bds.persons;
 ```
@@ -17,7 +17,7 @@ SELECT first_name, last_name, email, phone FROM bds.persons
 ```
 ![Statement 2](./screenshots/stmt02.png)
 
-### UPDATE, INSERT, DELETE, and ALTER TABLE 
+### UPDATE, INSERT, DELETE and ALTER TABLE 
 ```
 UPDATE bds.projects SET description = 'Pentesting website vut.cz' 
   WHERE slug = 'but';
@@ -92,7 +92,7 @@ SELECT COUNT(id_target) AS targets_per_category FROM bds.targets
 ```
 ![Statement 12](./screenshots/stmt12.png)
 
-### GROUP BY and HAVING; GROUP BY, HAVING, and WHERE
+### GROUP BY and HAVING
 ```
 SELECT id_person, COUNT(id_log) AS logs_per_person FROM bds.logs 
   GROUP BY id_person 
@@ -100,7 +100,7 @@ SELECT id_person, COUNT(id_log) AS logs_per_person FROM bds.logs
 ```
 ![Statement 13](./screenshots/stmt13.png)
 
-### GROUP BY, HAVING, and WHERE
+### GROUP BY, HAVING and WHERE
 ```
 SELECT id_category, AVG(id_category)::numeric(10,2) AS target_category_average FROM bds.targets 
   WHERE address LIKE '%.com' 
@@ -152,12 +152,12 @@ SELECT DISTINCT p.title, AVG(dm.file_size)::numeric(10,2) AS average_project_fil
 ```
 ![Statement 18](./screenshots/stmt18.png)
 
-### Select data from an arbitrary table for the last one and half days
+### Select data from table for the last one and half days
 ```
 SELECT log_event FROM bds.logs
   WHERE log_timestamp > current_timestamp - interval '1 day' + '12 hours';
 ```
-![Statement 19](./screenshots/stmt18.png)
+![Statement 19](./screenshots/stmt19.png)
 
 ### Select data from the last month
 ```
@@ -184,7 +184,8 @@ SELECT first_name, last_name, email FROM bds.persons
 
 ### Subquery in FROM
 ```
-SELECT id_role_type, total_roles FROM (SELECT id_role_type, COUNT(id_role_type) AS total_roles FROM bds.roles GROUP BY id_role_type) AS roles;
+SELECT id_role_type, total_roles 
+  FROM (SELECT id_role_type, COUNT(id_role_type) AS total_roles FROM bds.roles GROUP BY id_role_type) AS roles;
 ```
 ![Statement 23](./screenshots/stmt23.png)
 
@@ -215,7 +216,7 @@ SELECT p.title AS project_title, v.title AS vulnerablity_title, v.cve, v.descrip
 ```
 ![Statement 26](./screenshots/stmt26.png)
 
-### Join 4 tables and use GROUP BY, HAVING, and WHERE
+### Join 4 tables with GROUP BY, HAVING, and WHERE
 ```
 SELECT c.title, COUNT(t2.id_target) FROM bds.projects p
   JOIN bds.tasks t1 ON t1.id_project = p.id_project 
@@ -233,6 +234,44 @@ SELECT c.title, COUNT(t2.id_target) FROM bds.projects p
 ### Unique constraints, indexes, cascading, etc.
 
 See files containing word ***schema*** with the highest ***V*** prefix from the `db/migration/postgresql` directory.
+
+### Cascading
+Cascade delete/update is used to delete/update referenced records (by foreign key) from other tables if corresponding record is deleted/updated (by primary key).
+
+#### Cascading example
+```
+ALTER TABLE bds.targets
+  ADD CONSTRAINT fk_targets FOREIGN KEY (id_category) REFERENCES bds.categories(id_category) ON DELETE SET NULL;
+  
+ALTER TABLE bds.vulnerability2target
+  ADD CONSTRAINT fk_vulnerability2target1 FOREIGN KEY (id_target) REFERENCES bds.targets(id_target) ON DELETE CASCADE;
+```
+
+### Indexes
+PostgreSQL provides several index types: B-tree, Hash, GiST, SP-GiST, GIN and BRIN.
+
+#### Unique indexes creation example
+```
+CREATE UNIQUE INDEX idx_persons_email ON bds.persons(email);
+```
+
+Indexes speed up a select, but slow down inserts, updates and deletes because the database engine have to write the index together with the data.
+
+#### Index speed performance
+Select all projects based on title without index
+```
+EXPLAIN SELECT title, description FROM bds.projects WHERE title = 'MUNI';
+
+Execution time: 0.753 ms
+```
+
+Select all projects based on title with index
+```
+CREATE UNIQUE INDEX idx_projects_title ON bds.projects(title);
+EXPLAIN SELECT title, description FROM bds.projects WHERE title = 'MUNI';
+
+Execution time: 0.171 ms
+```
 
 ### Database procedure
 
@@ -277,19 +316,25 @@ CREATE VIEW bds.persons_view AS SELECT id_person, first_name, last_name, email, 
 ![Statement 30](./screenshots/stmt30.png)
 
 ### Database materialized view
+Materialized views cache the result of a complex and expensive query so that someone can access the data without having to perform the query.
+They cannot be updated directly, and the query used to create the materialized view (see below) is stored in the same way as the view query.
+They are useful if they are used frequently and the source needs to access them quickly.
+A materialized view can be refreshed periodically to create an updated version of the view.
+
+#### Materialized view creation
 ```
 CREATE MATERIALIZED VIEW bds.project_vulnerabilities AS
-	SELECT p.title, COUNT(v2t.id_vulnerability) AS total_vulnerabilities 
-    FROM bds.projects p 
-    JOIN bds.tasks t1 ON t1.id_project = p.id_project 
-    JOIN bds.target2task t2t ON t2t.id_task = t1.id_task
-    JOIN bds.targets t2 ON t2.id_target = t2t.id_target
-    JOIN bds.vulnerability2target v2t ON v2t.id_target = t2.id_target
-    JOIN bds.vulnerabilities v ON v.id_vulnerability = v2t.id_vulnerability
-    JOIN bds.categories c ON c.id_category = t2.id_category
-	WHERE v.cve IS NOT NULL
-    GROUP BY p.id_project
-    HAVING COUNT(t1.id_task) > 5;
+  SELECT p.title, COUNT(v2t.id_vulnerability) AS total_vulnerabilities 
+  FROM bds.projects p 
+  JOIN bds.tasks t1 ON t1.id_project = p.id_project 
+  JOIN bds.target2task t2t ON t2t.id_task = t1.id_task
+  JOIN bds.targets t2 ON t2.id_target = t2t.id_target
+  JOIN bds.vulnerability2target v2t ON v2t.id_target = t2.id_target
+  JOIN bds.vulnerabilities v ON v.id_vulnerability = v2t.id_vulnerability
+  JOIN bds.categories c ON c.id_category = t2.id_category
+  WHERE v.cve IS NOT NULL
+  GROUP BY p.id_project
+  HAVING COUNT(t1.id_task) > 5;
 ```
 ![Statement 31](./screenshots/stmt31.png)
 
