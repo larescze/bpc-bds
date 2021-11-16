@@ -23,7 +23,7 @@ UPDATE bds.projects SET description = 'Pentesting website vut.cz'
   WHERE slug = 'but';
 
 INSERT INTO bds.vulnerabilities (slug, title, cve, description, created_at, updated_at) 
-  VALUES ('jetbrains-hub','JetBrains Hub XSS','CVE-2021-43181', 'In JetBrains Hub before 2021.1.13690, stored XSS is possible.', now(), now());
+  VALUES ('jetbrains-hub','JetBrains Hub XSS','CVE-2021-43181', 'Possible stored XSS in JetBrains Hub.', now(), now());
 
 DELETE FROM bds.projects 
   WHERE slug = 'muni';
