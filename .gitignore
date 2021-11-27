@@ -1,2 +1,4 @@
 .vagrant
 ubuntu-*
+docs/*
+statements/screenshots/*
