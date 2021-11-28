@@ -1,8 +1,8 @@
-version: "3.8"
+version: "3.9"
 
 services:
   xlazar15-postgres-db:
-    image: postgres:13
+    image: postgres:14
     container_name: xlazar15-db-postgres
     restart: unless-stopped
     mem_limit: 1536MB
@@ -33,12 +33,12 @@ services:
       PGADMIN_DEFAULT_PASSWORD: postgres
     ports:
       - 5080:80
-    depends_on:
-      - xlazar15-postgres-db
     networks:
       - xlazar15-pentesting
+    depends_on:
+      - xlazar15-postgres-db
   flyway:
-    image: flyway/flyway:8
+    image: flyway/flyway:8.1.0
     environment:
       - FLYWAY_USER=postgres
       - FLYWAY_PASSWORD=postgres
@@ -61,6 +61,20 @@ services:
       - 80:80
     networks:
       - xlazar15-pentesting
+  web-app:
+    restart: always
+    build: ./app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./app/:/usr/src/app/
+    ports:
+      - 8000:8000
+    networks:
+      - xlazar15-pentesting
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - xlazar15-postgres-db
 volumes:
   db_xlazar15_data:
     name: postgre-db-xlazar15-data
