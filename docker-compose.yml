@@ -37,20 +37,6 @@ services:
       - xlazar15-pentesting
     depends_on:
       - xlazar15-postgres-db
-  flyway:
-    image: flyway/flyway:8.1.0
-    environment:
-      - FLYWAY_USER=postgres
-      - FLYWAY_PASSWORD=postgres
-      - FLYWAY_URL=jdbc:postgresql://xlazar15-postgres-db:5432/db-pentesting
-      - FLYWAY_SCHEMAS=bds
-    command: -locations=filesystem:/flyway/sql -connectRetries=300 migrate
-    volumes:
-      - ./db/migration/postgresql:/flyway/sql
-    depends_on:
-      - xlazar15-postgres-db
-    networks:
-      - xlazar15-pentesting
   nginx:
     image: nginx:1.21.3
     container_name: xlazar15-xnginx
@@ -64,7 +50,10 @@ services:
   web-app:
     restart: always
     build: ./app
-    command: python manage.py runserver 0.0.0.0:8000
+    command: >
+      sh -c "python manage.py makemigrations &&
+             python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
     volumes:
       - ./app/:/usr/src/app/
     ports:
@@ -75,6 +64,20 @@ services:
       - ./.env.dev
     depends_on:
       - xlazar15-postgres-db
+  flyway:
+    image: flyway/flyway:8.1.0
+    environment:
+      - FLYWAY_USER=postgres
+      - FLYWAY_PASSWORD=postgres
+      - FLYWAY_URL=jdbc:postgresql://xlazar15-postgres-db:5432/db-pentesting
+      - FLYWAY_SCHEMAS=bds
+    command: -locations=filesystem:/flyway/sql -connectRetries=300 migrate
+    volumes:
+      - ./db/migration/postgresql:/flyway/sql
+    depends_on:
+      - web-app
+    networks:
+      - xlazar15-pentesting
 volumes:
   db_xlazar15_data:
     name: postgre-db-xlazar15-data
