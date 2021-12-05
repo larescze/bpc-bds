@@ -27,6 +27,8 @@ defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
+dep-license==2.4.2
+    # via -r requirements.in
 django==3.2.9
     # via
     #   -r requirements.in
@@ -47,6 +49,10 @@ djangorestframework-simplejwt==4.8.0
     # via djoser
 djoser==2.1.0
     # via -r requirements.in
+gitdb==4.0.9
+    # via gitpython
+gitpython==3.1.24
+    # via dep-license
 idna==3.3
     # via requests
 itypes==1.2.0
@@ -77,6 +83,8 @@ pytz==2021.3
     # via
     #   -r requirements.in
     #   django
+pyyaml==6.0
+    # via dep-license
 requests==2.26.0
     # via
     #   coreapi
@@ -86,6 +94,8 @@ requests-oauthlib==1.3.0
     # via social-auth-core
 six==1.16.0
     # via social-auth-app-django
+smmap==5.0.0
+    # via gitdb
 social-auth-app-django==4.0.0
     # via djoser
 social-auth-core==4.1.0
@@ -94,10 +104,15 @@ sqlparse==0.4.2
     # via
     #   -r requirements.in
     #   django
+tabulate==0.8.9
+    # via dep-license
 toml==0.10.2
     # via
     #   -r requirements.in
     #   autopep8
+    #   dep-license
+typing-extensions==4.0.1
+    # via gitpython
 uritemplate==4.1.1
     # via coreapi
 urllib3==1.26.7
