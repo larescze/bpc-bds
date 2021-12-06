@@ -59,6 +59,7 @@ services:
     depends_on:
       - xlazar15-postgres-db
   web:
+    container_name: xlazar15-web
     restart: always
     build: ./app
     command: >
@@ -92,6 +93,7 @@ services:
       - web
   flyway:
     image: flyway/flyway:8.1.0
+    container_name: xlazar15-flyway
     environment:
       - FLYWAY_USER=postgres
       - FLYWAY_PASSWORD=postgres
