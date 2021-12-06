@@ -24,9 +24,10 @@ REST_FRAMEWORK = {
     )
 }
 
-ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
+ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost").split(" ")
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:8000', 'http://localhost:8080']
+CORS_ALLOWED_ORIGINS = ['http://web', 'https://web',
+                        'http://localhost:8080', 'https://localhost:8080']
 
 # Application definition
 
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "django_extensions",
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',

@@ -70,6 +70,891 @@
       "name": "index.html",
       "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\index.html",
       "publicPath": "https://localhost:8080/index.html"
+    },
+    "app.07614d750d9493766e6e.hot-update.js": {
+      "name": "app.07614d750d9493766e6e.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.07614d750d9493766e6e.hot-update.js",
+      "publicPath": "https://localhost:8080/app.07614d750d9493766e6e.hot-update.js"
+    },
+    "07614d750d9493766e6e.hot-update.json": {
+      "name": "07614d750d9493766e6e.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\07614d750d9493766e6e.hot-update.json",
+      "publicPath": "https://localhost:8080/07614d750d9493766e6e.hot-update.json"
+    },
+    "app.609cc50528d35558afe9.hot-update.js": {
+      "name": "app.609cc50528d35558afe9.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.609cc50528d35558afe9.hot-update.js",
+      "publicPath": "https://localhost:8080/app.609cc50528d35558afe9.hot-update.js"
+    },
+    "609cc50528d35558afe9.hot-update.json": {
+      "name": "609cc50528d35558afe9.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\609cc50528d35558afe9.hot-update.json",
+      "publicPath": "https://localhost:8080/609cc50528d35558afe9.hot-update.json"
+    },
+    "app.5ff99a925e63e7133904.hot-update.js": {
+      "name": "app.5ff99a925e63e7133904.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.5ff99a925e63e7133904.hot-update.js",
+      "publicPath": "https://localhost:8080/app.5ff99a925e63e7133904.hot-update.js"
+    },
+    "5ff99a925e63e7133904.hot-update.json": {
+      "name": "5ff99a925e63e7133904.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\5ff99a925e63e7133904.hot-update.json",
+      "publicPath": "https://localhost:8080/5ff99a925e63e7133904.hot-update.json"
+    },
+    "app.2644bf6d2286d890f92f.hot-update.js": {
+      "name": "app.2644bf6d2286d890f92f.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.2644bf6d2286d890f92f.hot-update.js",
+      "publicPath": "https://localhost:8080/app.2644bf6d2286d890f92f.hot-update.js"
+    },
+    "2644bf6d2286d890f92f.hot-update.json": {
+      "name": "2644bf6d2286d890f92f.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\2644bf6d2286d890f92f.hot-update.json",
+      "publicPath": "https://localhost:8080/2644bf6d2286d890f92f.hot-update.json"
+    },
+    "app.eb501bcfe4013e0ae26d.hot-update.js": {
+      "name": "app.eb501bcfe4013e0ae26d.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.eb501bcfe4013e0ae26d.hot-update.js",
+      "publicPath": "https://localhost:8080/app.eb501bcfe4013e0ae26d.hot-update.js"
+    },
+    "eb501bcfe4013e0ae26d.hot-update.json": {
+      "name": "eb501bcfe4013e0ae26d.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\eb501bcfe4013e0ae26d.hot-update.json",
+      "publicPath": "https://localhost:8080/eb501bcfe4013e0ae26d.hot-update.json"
+    },
+    "a30061e8daeface4c14f.hot-update.json": {
+      "name": "a30061e8daeface4c14f.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\a30061e8daeface4c14f.hot-update.json",
+      "publicPath": "https://localhost:8080/a30061e8daeface4c14f.hot-update.json"
+    },
+    "app.952484ac1b29973a6160.hot-update.js": {
+      "name": "app.952484ac1b29973a6160.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.952484ac1b29973a6160.hot-update.js",
+      "publicPath": "https://localhost:8080/app.952484ac1b29973a6160.hot-update.js"
+    },
+    "952484ac1b29973a6160.hot-update.json": {
+      "name": "952484ac1b29973a6160.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\952484ac1b29973a6160.hot-update.json",
+      "publicPath": "https://localhost:8080/952484ac1b29973a6160.hot-update.json"
+    },
+    "fb061abbc80a794b08da.hot-update.json": {
+      "name": "fb061abbc80a794b08da.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\fb061abbc80a794b08da.hot-update.json",
+      "publicPath": "https://localhost:8080/fb061abbc80a794b08da.hot-update.json"
+    },
+    "app.acd321af63f595e75f69.hot-update.js": {
+      "name": "app.acd321af63f595e75f69.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.acd321af63f595e75f69.hot-update.js",
+      "publicPath": "https://localhost:8080/app.acd321af63f595e75f69.hot-update.js"
+    },
+    "acd321af63f595e75f69.hot-update.json": {
+      "name": "acd321af63f595e75f69.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\acd321af63f595e75f69.hot-update.json",
+      "publicPath": "https://localhost:8080/acd321af63f595e75f69.hot-update.json"
+    },
+    "app.eb4f0f538d1d8a36329e.hot-update.js": {
+      "name": "app.eb4f0f538d1d8a36329e.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.eb4f0f538d1d8a36329e.hot-update.js",
+      "publicPath": "https://localhost:8080/app.eb4f0f538d1d8a36329e.hot-update.js"
+    },
+    "eb4f0f538d1d8a36329e.hot-update.json": {
+      "name": "eb4f0f538d1d8a36329e.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\eb4f0f538d1d8a36329e.hot-update.json",
+      "publicPath": "https://localhost:8080/eb4f0f538d1d8a36329e.hot-update.json"
+    },
+    "app.97c5754a3e7879359e0a.hot-update.js": {
+      "name": "app.97c5754a3e7879359e0a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.97c5754a3e7879359e0a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.97c5754a3e7879359e0a.hot-update.js"
+    },
+    "97c5754a3e7879359e0a.hot-update.json": {
+      "name": "97c5754a3e7879359e0a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\97c5754a3e7879359e0a.hot-update.json",
+      "publicPath": "https://localhost:8080/97c5754a3e7879359e0a.hot-update.json"
+    },
+    "app.61c9a26fe31cc565bb67.hot-update.js": {
+      "name": "app.61c9a26fe31cc565bb67.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.61c9a26fe31cc565bb67.hot-update.js",
+      "publicPath": "https://localhost:8080/app.61c9a26fe31cc565bb67.hot-update.js"
+    },
+    "61c9a26fe31cc565bb67.hot-update.json": {
+      "name": "61c9a26fe31cc565bb67.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\61c9a26fe31cc565bb67.hot-update.json",
+      "publicPath": "https://localhost:8080/61c9a26fe31cc565bb67.hot-update.json"
+    },
+    "dd527be776f50b366a7d.hot-update.json": {
+      "name": "dd527be776f50b366a7d.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\dd527be776f50b366a7d.hot-update.json",
+      "publicPath": "https://localhost:8080/dd527be776f50b366a7d.hot-update.json"
+    },
+    "505bac72f0251de8ee93.hot-update.json": {
+      "name": "505bac72f0251de8ee93.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\505bac72f0251de8ee93.hot-update.json",
+      "publicPath": "https://localhost:8080/505bac72f0251de8ee93.hot-update.json"
+    },
+    "app.4d3f18e3c8164b2955e4.hot-update.js": {
+      "name": "app.4d3f18e3c8164b2955e4.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.4d3f18e3c8164b2955e4.hot-update.js",
+      "publicPath": "https://localhost:8080/app.4d3f18e3c8164b2955e4.hot-update.js"
+    },
+    "4d3f18e3c8164b2955e4.hot-update.json": {
+      "name": "4d3f18e3c8164b2955e4.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\4d3f18e3c8164b2955e4.hot-update.json",
+      "publicPath": "https://localhost:8080/4d3f18e3c8164b2955e4.hot-update.json"
+    },
+    "app.a5a46fb45811f5abae6c.hot-update.js": {
+      "name": "app.a5a46fb45811f5abae6c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.a5a46fb45811f5abae6c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.a5a46fb45811f5abae6c.hot-update.js"
+    },
+    "a5a46fb45811f5abae6c.hot-update.json": {
+      "name": "a5a46fb45811f5abae6c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\a5a46fb45811f5abae6c.hot-update.json",
+      "publicPath": "https://localhost:8080/a5a46fb45811f5abae6c.hot-update.json"
+    },
+    "app.c6a49129976aa50aa551.hot-update.js": {
+      "name": "app.c6a49129976aa50aa551.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.c6a49129976aa50aa551.hot-update.js",
+      "publicPath": "https://localhost:8080/app.c6a49129976aa50aa551.hot-update.js"
+    },
+    "c6a49129976aa50aa551.hot-update.json": {
+      "name": "c6a49129976aa50aa551.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\c6a49129976aa50aa551.hot-update.json",
+      "publicPath": "https://localhost:8080/c6a49129976aa50aa551.hot-update.json"
+    },
+    "app.a92a13a9bccec1a4f527.hot-update.js": {
+      "name": "app.a92a13a9bccec1a4f527.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.a92a13a9bccec1a4f527.hot-update.js",
+      "publicPath": "https://localhost:8080/app.a92a13a9bccec1a4f527.hot-update.js"
+    },
+    "a92a13a9bccec1a4f527.hot-update.json": {
+      "name": "a92a13a9bccec1a4f527.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\a92a13a9bccec1a4f527.hot-update.json",
+      "publicPath": "https://localhost:8080/a92a13a9bccec1a4f527.hot-update.json"
+    },
+    "app.ddb7a45d538b57868308.hot-update.js": {
+      "name": "app.ddb7a45d538b57868308.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.ddb7a45d538b57868308.hot-update.js",
+      "publicPath": "https://localhost:8080/app.ddb7a45d538b57868308.hot-update.js"
+    },
+    "ddb7a45d538b57868308.hot-update.json": {
+      "name": "ddb7a45d538b57868308.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\ddb7a45d538b57868308.hot-update.json",
+      "publicPath": "https://localhost:8080/ddb7a45d538b57868308.hot-update.json"
+    },
+    "app.621ff8b50a1ebb5a8155.hot-update.js": {
+      "name": "app.621ff8b50a1ebb5a8155.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.621ff8b50a1ebb5a8155.hot-update.js",
+      "publicPath": "https://localhost:8080/app.621ff8b50a1ebb5a8155.hot-update.js"
+    },
+    "621ff8b50a1ebb5a8155.hot-update.json": {
+      "name": "621ff8b50a1ebb5a8155.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\621ff8b50a1ebb5a8155.hot-update.json",
+      "publicPath": "https://localhost:8080/621ff8b50a1ebb5a8155.hot-update.json"
+    },
+    "app.58832ec39a99cddc462e.hot-update.js": {
+      "name": "app.58832ec39a99cddc462e.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.58832ec39a99cddc462e.hot-update.js",
+      "publicPath": "https://localhost:8080/app.58832ec39a99cddc462e.hot-update.js"
+    },
+    "58832ec39a99cddc462e.hot-update.json": {
+      "name": "58832ec39a99cddc462e.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\58832ec39a99cddc462e.hot-update.json",
+      "publicPath": "https://localhost:8080/58832ec39a99cddc462e.hot-update.json"
+    },
+    "6fa264d025295891db3f.hot-update.json": {
+      "name": "6fa264d025295891db3f.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\6fa264d025295891db3f.hot-update.json",
+      "publicPath": "https://localhost:8080/6fa264d025295891db3f.hot-update.json"
+    },
+    "app.0fb07678a50d2f81cc69.hot-update.js": {
+      "name": "app.0fb07678a50d2f81cc69.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.0fb07678a50d2f81cc69.hot-update.js",
+      "publicPath": "https://localhost:8080/app.0fb07678a50d2f81cc69.hot-update.js"
+    },
+    "0fb07678a50d2f81cc69.hot-update.json": {
+      "name": "0fb07678a50d2f81cc69.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\0fb07678a50d2f81cc69.hot-update.json",
+      "publicPath": "https://localhost:8080/0fb07678a50d2f81cc69.hot-update.json"
+    },
+    "2546107a561e57000d98.hot-update.json": {
+      "name": "2546107a561e57000d98.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\2546107a561e57000d98.hot-update.json",
+      "publicPath": "https://localhost:8080/2546107a561e57000d98.hot-update.json"
+    },
+    "809776ea17c4ada367e0.hot-update.json": {
+      "name": "809776ea17c4ada367e0.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\809776ea17c4ada367e0.hot-update.json",
+      "publicPath": "https://localhost:8080/809776ea17c4ada367e0.hot-update.json"
+    },
+    "app.7098313a5c5d0436d79b.hot-update.js": {
+      "name": "app.7098313a5c5d0436d79b.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.7098313a5c5d0436d79b.hot-update.js",
+      "publicPath": "https://localhost:8080/app.7098313a5c5d0436d79b.hot-update.js"
+    },
+    "7098313a5c5d0436d79b.hot-update.json": {
+      "name": "7098313a5c5d0436d79b.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7098313a5c5d0436d79b.hot-update.json",
+      "publicPath": "https://localhost:8080/7098313a5c5d0436d79b.hot-update.json"
+    },
+    "app.52f92980eb5d7e136db1.hot-update.js": {
+      "name": "app.52f92980eb5d7e136db1.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.52f92980eb5d7e136db1.hot-update.js",
+      "publicPath": "https://localhost:8080/app.52f92980eb5d7e136db1.hot-update.js"
+    },
+    "52f92980eb5d7e136db1.hot-update.json": {
+      "name": "52f92980eb5d7e136db1.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\52f92980eb5d7e136db1.hot-update.json",
+      "publicPath": "https://localhost:8080/52f92980eb5d7e136db1.hot-update.json"
+    },
+    "app.bf35203c1987ae2e5d1c.hot-update.js": {
+      "name": "app.bf35203c1987ae2e5d1c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.bf35203c1987ae2e5d1c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.bf35203c1987ae2e5d1c.hot-update.js"
+    },
+    "bf35203c1987ae2e5d1c.hot-update.json": {
+      "name": "bf35203c1987ae2e5d1c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\bf35203c1987ae2e5d1c.hot-update.json",
+      "publicPath": "https://localhost:8080/bf35203c1987ae2e5d1c.hot-update.json"
+    },
+    "app.61a795e8e21b014a4a7a.hot-update.js": {
+      "name": "app.61a795e8e21b014a4a7a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.61a795e8e21b014a4a7a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.61a795e8e21b014a4a7a.hot-update.js"
+    },
+    "61a795e8e21b014a4a7a.hot-update.json": {
+      "name": "61a795e8e21b014a4a7a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\61a795e8e21b014a4a7a.hot-update.json",
+      "publicPath": "https://localhost:8080/61a795e8e21b014a4a7a.hot-update.json"
+    },
+    "app.6482645c6b85d0974a1a.hot-update.js": {
+      "name": "app.6482645c6b85d0974a1a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.6482645c6b85d0974a1a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.6482645c6b85d0974a1a.hot-update.js"
+    },
+    "6482645c6b85d0974a1a.hot-update.json": {
+      "name": "6482645c6b85d0974a1a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\6482645c6b85d0974a1a.hot-update.json",
+      "publicPath": "https://localhost:8080/6482645c6b85d0974a1a.hot-update.json"
+    },
+    "app.f97fd98a59791b1ed75c.hot-update.js": {
+      "name": "app.f97fd98a59791b1ed75c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.f97fd98a59791b1ed75c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.f97fd98a59791b1ed75c.hot-update.js"
+    },
+    "f97fd98a59791b1ed75c.hot-update.json": {
+      "name": "f97fd98a59791b1ed75c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\f97fd98a59791b1ed75c.hot-update.json",
+      "publicPath": "https://localhost:8080/f97fd98a59791b1ed75c.hot-update.json"
+    },
+    "fe7e0af2ac76abed760a.hot-update.json": {
+      "name": "fe7e0af2ac76abed760a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\fe7e0af2ac76abed760a.hot-update.json",
+      "publicPath": "https://localhost:8080/fe7e0af2ac76abed760a.hot-update.json"
+    },
+    "app.6d8c1eabd4159ffb801d.hot-update.js": {
+      "name": "app.6d8c1eabd4159ffb801d.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.6d8c1eabd4159ffb801d.hot-update.js",
+      "publicPath": "https://localhost:8080/app.6d8c1eabd4159ffb801d.hot-update.js"
+    },
+    "6d8c1eabd4159ffb801d.hot-update.json": {
+      "name": "6d8c1eabd4159ffb801d.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\6d8c1eabd4159ffb801d.hot-update.json",
+      "publicPath": "https://localhost:8080/6d8c1eabd4159ffb801d.hot-update.json"
+    },
+    "app.c102e937056751cb3ab9.hot-update.js": {
+      "name": "app.c102e937056751cb3ab9.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.c102e937056751cb3ab9.hot-update.js",
+      "publicPath": "https://localhost:8080/app.c102e937056751cb3ab9.hot-update.js"
+    },
+    "c102e937056751cb3ab9.hot-update.json": {
+      "name": "c102e937056751cb3ab9.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\c102e937056751cb3ab9.hot-update.json",
+      "publicPath": "https://localhost:8080/c102e937056751cb3ab9.hot-update.json"
+    },
+    "8cdb90de472119957696.hot-update.json": {
+      "name": "8cdb90de472119957696.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\8cdb90de472119957696.hot-update.json",
+      "publicPath": "https://localhost:8080/8cdb90de472119957696.hot-update.json"
+    },
+    "app.eb4f139f87dc951bd5ac.hot-update.js": {
+      "name": "app.eb4f139f87dc951bd5ac.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.eb4f139f87dc951bd5ac.hot-update.js",
+      "publicPath": "https://localhost:8080/app.eb4f139f87dc951bd5ac.hot-update.js"
+    },
+    "eb4f139f87dc951bd5ac.hot-update.json": {
+      "name": "eb4f139f87dc951bd5ac.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\eb4f139f87dc951bd5ac.hot-update.json",
+      "publicPath": "https://localhost:8080/eb4f139f87dc951bd5ac.hot-update.json"
+    },
+    "app.7bf07bcf1a1187fce31c.hot-update.js": {
+      "name": "app.7bf07bcf1a1187fce31c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.7bf07bcf1a1187fce31c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.7bf07bcf1a1187fce31c.hot-update.js"
+    },
+    "7bf07bcf1a1187fce31c.hot-update.json": {
+      "name": "7bf07bcf1a1187fce31c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7bf07bcf1a1187fce31c.hot-update.json",
+      "publicPath": "https://localhost:8080/7bf07bcf1a1187fce31c.hot-update.json"
+    },
+    "app.fe5c96335f544a9550bd.hot-update.js": {
+      "name": "app.fe5c96335f544a9550bd.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.fe5c96335f544a9550bd.hot-update.js",
+      "publicPath": "https://localhost:8080/app.fe5c96335f544a9550bd.hot-update.js"
+    },
+    "fe5c96335f544a9550bd.hot-update.json": {
+      "name": "fe5c96335f544a9550bd.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\fe5c96335f544a9550bd.hot-update.json",
+      "publicPath": "https://localhost:8080/fe5c96335f544a9550bd.hot-update.json"
+    },
+    "app.2c8532aeeb86b5d1aab1.hot-update.js": {
+      "name": "app.2c8532aeeb86b5d1aab1.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.2c8532aeeb86b5d1aab1.hot-update.js",
+      "publicPath": "https://localhost:8080/app.2c8532aeeb86b5d1aab1.hot-update.js"
+    },
+    "2c8532aeeb86b5d1aab1.hot-update.json": {
+      "name": "2c8532aeeb86b5d1aab1.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\2c8532aeeb86b5d1aab1.hot-update.json",
+      "publicPath": "https://localhost:8080/2c8532aeeb86b5d1aab1.hot-update.json"
+    },
+    "app.7d106bc2fa3a95533a7a.hot-update.js": {
+      "name": "app.7d106bc2fa3a95533a7a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.7d106bc2fa3a95533a7a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.7d106bc2fa3a95533a7a.hot-update.js"
+    },
+    "7d106bc2fa3a95533a7a.hot-update.json": {
+      "name": "7d106bc2fa3a95533a7a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7d106bc2fa3a95533a7a.hot-update.json",
+      "publicPath": "https://localhost:8080/7d106bc2fa3a95533a7a.hot-update.json"
+    },
+    "app.e28ca9def95e229d49f9.hot-update.js": {
+      "name": "app.e28ca9def95e229d49f9.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.e28ca9def95e229d49f9.hot-update.js",
+      "publicPath": "https://localhost:8080/app.e28ca9def95e229d49f9.hot-update.js"
+    },
+    "e28ca9def95e229d49f9.hot-update.json": {
+      "name": "e28ca9def95e229d49f9.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\e28ca9def95e229d49f9.hot-update.json",
+      "publicPath": "https://localhost:8080/e28ca9def95e229d49f9.hot-update.json"
+    },
+    "app.cb38e37bb489122df6d4.hot-update.js": {
+      "name": "app.cb38e37bb489122df6d4.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.cb38e37bb489122df6d4.hot-update.js",
+      "publicPath": "https://localhost:8080/app.cb38e37bb489122df6d4.hot-update.js"
+    },
+    "cb38e37bb489122df6d4.hot-update.json": {
+      "name": "cb38e37bb489122df6d4.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\cb38e37bb489122df6d4.hot-update.json",
+      "publicPath": "https://localhost:8080/cb38e37bb489122df6d4.hot-update.json"
+    },
+    "ca41c0e9cf59a022da63.hot-update.json": {
+      "name": "ca41c0e9cf59a022da63.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\ca41c0e9cf59a022da63.hot-update.json",
+      "publicPath": "https://localhost:8080/ca41c0e9cf59a022da63.hot-update.json"
+    },
+    "app.aeddb5a062f08cc23d60.hot-update.js": {
+      "name": "app.aeddb5a062f08cc23d60.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.aeddb5a062f08cc23d60.hot-update.js",
+      "publicPath": "https://localhost:8080/app.aeddb5a062f08cc23d60.hot-update.js"
+    },
+    "aeddb5a062f08cc23d60.hot-update.json": {
+      "name": "aeddb5a062f08cc23d60.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\aeddb5a062f08cc23d60.hot-update.json",
+      "publicPath": "https://localhost:8080/aeddb5a062f08cc23d60.hot-update.json"
+    },
+    "app.fcf4a349127949163fc1.hot-update.js": {
+      "name": "app.fcf4a349127949163fc1.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.fcf4a349127949163fc1.hot-update.js",
+      "publicPath": "https://localhost:8080/app.fcf4a349127949163fc1.hot-update.js"
+    },
+    "fcf4a349127949163fc1.hot-update.json": {
+      "name": "fcf4a349127949163fc1.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\fcf4a349127949163fc1.hot-update.json",
+      "publicPath": "https://localhost:8080/fcf4a349127949163fc1.hot-update.json"
+    },
+    "app.3de514785a732b34997f.hot-update.js": {
+      "name": "app.3de514785a732b34997f.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.3de514785a732b34997f.hot-update.js",
+      "publicPath": "https://localhost:8080/app.3de514785a732b34997f.hot-update.js"
+    },
+    "3de514785a732b34997f.hot-update.json": {
+      "name": "3de514785a732b34997f.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3de514785a732b34997f.hot-update.json",
+      "publicPath": "https://localhost:8080/3de514785a732b34997f.hot-update.json"
+    },
+    "app.1ba8ca222dc543887140.hot-update.js": {
+      "name": "app.1ba8ca222dc543887140.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.1ba8ca222dc543887140.hot-update.js",
+      "publicPath": "https://localhost:8080/app.1ba8ca222dc543887140.hot-update.js"
+    },
+    "1ba8ca222dc543887140.hot-update.json": {
+      "name": "1ba8ca222dc543887140.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\1ba8ca222dc543887140.hot-update.json",
+      "publicPath": "https://localhost:8080/1ba8ca222dc543887140.hot-update.json"
+    },
+    "app.b0e9043afe8edd2ea409.hot-update.js": {
+      "name": "app.b0e9043afe8edd2ea409.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.b0e9043afe8edd2ea409.hot-update.js",
+      "publicPath": "https://localhost:8080/app.b0e9043afe8edd2ea409.hot-update.js"
+    },
+    "b0e9043afe8edd2ea409.hot-update.json": {
+      "name": "b0e9043afe8edd2ea409.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\b0e9043afe8edd2ea409.hot-update.json",
+      "publicPath": "https://localhost:8080/b0e9043afe8edd2ea409.hot-update.json"
+    },
+    "7f3a19ede8bc2cbd1f4c.hot-update.json": {
+      "name": "7f3a19ede8bc2cbd1f4c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7f3a19ede8bc2cbd1f4c.hot-update.json",
+      "publicPath": "https://localhost:8080/7f3a19ede8bc2cbd1f4c.hot-update.json"
+    },
+    "ef78377aed1da6597782.hot-update.json": {
+      "name": "ef78377aed1da6597782.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\ef78377aed1da6597782.hot-update.json",
+      "publicPath": "https://localhost:8080/ef78377aed1da6597782.hot-update.json"
+    },
+    "app.05efc953c1d0ceeb4d3a.hot-update.js": {
+      "name": "app.05efc953c1d0ceeb4d3a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.05efc953c1d0ceeb4d3a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.05efc953c1d0ceeb4d3a.hot-update.js"
+    },
+    "05efc953c1d0ceeb4d3a.hot-update.json": {
+      "name": "05efc953c1d0ceeb4d3a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\05efc953c1d0ceeb4d3a.hot-update.json",
+      "publicPath": "https://localhost:8080/05efc953c1d0ceeb4d3a.hot-update.json"
+    },
+    "app.45ec9448b57125cdccfd.hot-update.js": {
+      "name": "app.45ec9448b57125cdccfd.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.45ec9448b57125cdccfd.hot-update.js",
+      "publicPath": "https://localhost:8080/app.45ec9448b57125cdccfd.hot-update.js"
+    },
+    "45ec9448b57125cdccfd.hot-update.json": {
+      "name": "45ec9448b57125cdccfd.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\45ec9448b57125cdccfd.hot-update.json",
+      "publicPath": "https://localhost:8080/45ec9448b57125cdccfd.hot-update.json"
+    },
+    "app.c9ebf0669b1387d80af5.hot-update.js": {
+      "name": "app.c9ebf0669b1387d80af5.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.c9ebf0669b1387d80af5.hot-update.js",
+      "publicPath": "https://localhost:8080/app.c9ebf0669b1387d80af5.hot-update.js"
+    },
+    "c9ebf0669b1387d80af5.hot-update.json": {
+      "name": "c9ebf0669b1387d80af5.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\c9ebf0669b1387d80af5.hot-update.json",
+      "publicPath": "https://localhost:8080/c9ebf0669b1387d80af5.hot-update.json"
+    },
+    "app.3c76f50a9c12b8b6a71a.hot-update.js": {
+      "name": "app.3c76f50a9c12b8b6a71a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.3c76f50a9c12b8b6a71a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.3c76f50a9c12b8b6a71a.hot-update.js"
+    },
+    "3c76f50a9c12b8b6a71a.hot-update.json": {
+      "name": "3c76f50a9c12b8b6a71a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3c76f50a9c12b8b6a71a.hot-update.json",
+      "publicPath": "https://localhost:8080/3c76f50a9c12b8b6a71a.hot-update.json"
+    },
+    "app.d3562ed23841cb192d90.hot-update.js": {
+      "name": "app.d3562ed23841cb192d90.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.d3562ed23841cb192d90.hot-update.js",
+      "publicPath": "https://localhost:8080/app.d3562ed23841cb192d90.hot-update.js"
+    },
+    "d3562ed23841cb192d90.hot-update.json": {
+      "name": "d3562ed23841cb192d90.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\d3562ed23841cb192d90.hot-update.json",
+      "publicPath": "https://localhost:8080/d3562ed23841cb192d90.hot-update.json"
+    },
+    "app.9188b27fd0166a6c1f43.hot-update.js": {
+      "name": "app.9188b27fd0166a6c1f43.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.9188b27fd0166a6c1f43.hot-update.js",
+      "publicPath": "https://localhost:8080/app.9188b27fd0166a6c1f43.hot-update.js"
+    },
+    "9188b27fd0166a6c1f43.hot-update.json": {
+      "name": "9188b27fd0166a6c1f43.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\9188b27fd0166a6c1f43.hot-update.json",
+      "publicPath": "https://localhost:8080/9188b27fd0166a6c1f43.hot-update.json"
+    },
+    "app.d7b72e82cb005d9c86a9.hot-update.js": {
+      "name": "app.d7b72e82cb005d9c86a9.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.d7b72e82cb005d9c86a9.hot-update.js",
+      "publicPath": "https://localhost:8080/app.d7b72e82cb005d9c86a9.hot-update.js"
+    },
+    "d7b72e82cb005d9c86a9.hot-update.json": {
+      "name": "d7b72e82cb005d9c86a9.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\d7b72e82cb005d9c86a9.hot-update.json",
+      "publicPath": "https://localhost:8080/d7b72e82cb005d9c86a9.hot-update.json"
+    },
+    "app.0f7014cd943e632c09c5.hot-update.js": {
+      "name": "app.0f7014cd943e632c09c5.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.0f7014cd943e632c09c5.hot-update.js",
+      "publicPath": "https://localhost:8080/app.0f7014cd943e632c09c5.hot-update.js"
+    },
+    "0f7014cd943e632c09c5.hot-update.json": {
+      "name": "0f7014cd943e632c09c5.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\0f7014cd943e632c09c5.hot-update.json",
+      "publicPath": "https://localhost:8080/0f7014cd943e632c09c5.hot-update.json"
+    },
+    "app.12b73ac1590246e171e3.hot-update.js": {
+      "name": "app.12b73ac1590246e171e3.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.12b73ac1590246e171e3.hot-update.js",
+      "publicPath": "https://localhost:8080/app.12b73ac1590246e171e3.hot-update.js"
+    },
+    "12b73ac1590246e171e3.hot-update.json": {
+      "name": "12b73ac1590246e171e3.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\12b73ac1590246e171e3.hot-update.json",
+      "publicPath": "https://localhost:8080/12b73ac1590246e171e3.hot-update.json"
+    },
+    "app.be93289bb036bd627cc5.hot-update.js": {
+      "name": "app.be93289bb036bd627cc5.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.be93289bb036bd627cc5.hot-update.js",
+      "publicPath": "https://localhost:8080/app.be93289bb036bd627cc5.hot-update.js"
+    },
+    "be93289bb036bd627cc5.hot-update.json": {
+      "name": "be93289bb036bd627cc5.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\be93289bb036bd627cc5.hot-update.json",
+      "publicPath": "https://localhost:8080/be93289bb036bd627cc5.hot-update.json"
+    },
+    "app.8f24657d555a4e043000.hot-update.js": {
+      "name": "app.8f24657d555a4e043000.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.8f24657d555a4e043000.hot-update.js",
+      "publicPath": "https://localhost:8080/app.8f24657d555a4e043000.hot-update.js"
+    },
+    "8f24657d555a4e043000.hot-update.json": {
+      "name": "8f24657d555a4e043000.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\8f24657d555a4e043000.hot-update.json",
+      "publicPath": "https://localhost:8080/8f24657d555a4e043000.hot-update.json"
+    },
+    "app.994cabed5dbde4c5db2b.hot-update.js": {
+      "name": "app.994cabed5dbde4c5db2b.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.994cabed5dbde4c5db2b.hot-update.js",
+      "publicPath": "https://localhost:8080/app.994cabed5dbde4c5db2b.hot-update.js"
+    },
+    "994cabed5dbde4c5db2b.hot-update.json": {
+      "name": "994cabed5dbde4c5db2b.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\994cabed5dbde4c5db2b.hot-update.json",
+      "publicPath": "https://localhost:8080/994cabed5dbde4c5db2b.hot-update.json"
+    },
+    "app.03e5cf1361b426314fe3.hot-update.js": {
+      "name": "app.03e5cf1361b426314fe3.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.03e5cf1361b426314fe3.hot-update.js",
+      "publicPath": "https://localhost:8080/app.03e5cf1361b426314fe3.hot-update.js"
+    },
+    "03e5cf1361b426314fe3.hot-update.json": {
+      "name": "03e5cf1361b426314fe3.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\03e5cf1361b426314fe3.hot-update.json",
+      "publicPath": "https://localhost:8080/03e5cf1361b426314fe3.hot-update.json"
+    },
+    "app.db27027ba742971c4034.hot-update.js": {
+      "name": "app.db27027ba742971c4034.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.db27027ba742971c4034.hot-update.js",
+      "publicPath": "https://localhost:8080/app.db27027ba742971c4034.hot-update.js"
+    },
+    "db27027ba742971c4034.hot-update.json": {
+      "name": "db27027ba742971c4034.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\db27027ba742971c4034.hot-update.json",
+      "publicPath": "https://localhost:8080/db27027ba742971c4034.hot-update.json"
+    },
+    "app.f4f78dfcce3ac5514aaf.hot-update.js": {
+      "name": "app.f4f78dfcce3ac5514aaf.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.f4f78dfcce3ac5514aaf.hot-update.js",
+      "publicPath": "https://localhost:8080/app.f4f78dfcce3ac5514aaf.hot-update.js"
+    },
+    "f4f78dfcce3ac5514aaf.hot-update.json": {
+      "name": "f4f78dfcce3ac5514aaf.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\f4f78dfcce3ac5514aaf.hot-update.json",
+      "publicPath": "https://localhost:8080/f4f78dfcce3ac5514aaf.hot-update.json"
+    },
+    "app.4626966318c6137bf843.hot-update.js": {
+      "name": "app.4626966318c6137bf843.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.4626966318c6137bf843.hot-update.js",
+      "publicPath": "https://localhost:8080/app.4626966318c6137bf843.hot-update.js"
+    },
+    "4626966318c6137bf843.hot-update.json": {
+      "name": "4626966318c6137bf843.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\4626966318c6137bf843.hot-update.json",
+      "publicPath": "https://localhost:8080/4626966318c6137bf843.hot-update.json"
+    },
+    "app.67da629efbd97aa7d579.hot-update.js": {
+      "name": "app.67da629efbd97aa7d579.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.67da629efbd97aa7d579.hot-update.js",
+      "publicPath": "https://localhost:8080/app.67da629efbd97aa7d579.hot-update.js"
+    },
+    "67da629efbd97aa7d579.hot-update.json": {
+      "name": "67da629efbd97aa7d579.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\67da629efbd97aa7d579.hot-update.json",
+      "publicPath": "https://localhost:8080/67da629efbd97aa7d579.hot-update.json"
+    },
+    "app.9e21c52e71ebd48b4e4a.hot-update.js": {
+      "name": "app.9e21c52e71ebd48b4e4a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.9e21c52e71ebd48b4e4a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.9e21c52e71ebd48b4e4a.hot-update.js"
+    },
+    "9e21c52e71ebd48b4e4a.hot-update.json": {
+      "name": "9e21c52e71ebd48b4e4a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\9e21c52e71ebd48b4e4a.hot-update.json",
+      "publicPath": "https://localhost:8080/9e21c52e71ebd48b4e4a.hot-update.json"
+    },
+    "app.63474ab26214ac5ebf72.hot-update.js": {
+      "name": "app.63474ab26214ac5ebf72.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.63474ab26214ac5ebf72.hot-update.js",
+      "publicPath": "https://localhost:8080/app.63474ab26214ac5ebf72.hot-update.js"
+    },
+    "63474ab26214ac5ebf72.hot-update.json": {
+      "name": "63474ab26214ac5ebf72.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\63474ab26214ac5ebf72.hot-update.json",
+      "publicPath": "https://localhost:8080/63474ab26214ac5ebf72.hot-update.json"
+    },
+    "app.478656fd0a87d27158e7.hot-update.js": {
+      "name": "app.478656fd0a87d27158e7.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.478656fd0a87d27158e7.hot-update.js",
+      "publicPath": "https://localhost:8080/app.478656fd0a87d27158e7.hot-update.js"
+    },
+    "478656fd0a87d27158e7.hot-update.json": {
+      "name": "478656fd0a87d27158e7.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\478656fd0a87d27158e7.hot-update.json",
+      "publicPath": "https://localhost:8080/478656fd0a87d27158e7.hot-update.json"
+    },
+    "app.f8e6073d0632ad160233.hot-update.js": {
+      "name": "app.f8e6073d0632ad160233.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.f8e6073d0632ad160233.hot-update.js",
+      "publicPath": "https://localhost:8080/app.f8e6073d0632ad160233.hot-update.js"
+    },
+    "f8e6073d0632ad160233.hot-update.json": {
+      "name": "f8e6073d0632ad160233.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\f8e6073d0632ad160233.hot-update.json",
+      "publicPath": "https://localhost:8080/f8e6073d0632ad160233.hot-update.json"
+    },
+    "app.3a48e33ec144daf036a6.hot-update.js": {
+      "name": "app.3a48e33ec144daf036a6.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.3a48e33ec144daf036a6.hot-update.js",
+      "publicPath": "https://localhost:8080/app.3a48e33ec144daf036a6.hot-update.js"
+    },
+    "3a48e33ec144daf036a6.hot-update.json": {
+      "name": "3a48e33ec144daf036a6.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3a48e33ec144daf036a6.hot-update.json",
+      "publicPath": "https://localhost:8080/3a48e33ec144daf036a6.hot-update.json"
+    },
+    "app.73c95f7d55ff36fe3e9c.hot-update.js": {
+      "name": "app.73c95f7d55ff36fe3e9c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.73c95f7d55ff36fe3e9c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.73c95f7d55ff36fe3e9c.hot-update.js"
+    },
+    "73c95f7d55ff36fe3e9c.hot-update.json": {
+      "name": "73c95f7d55ff36fe3e9c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\73c95f7d55ff36fe3e9c.hot-update.json",
+      "publicPath": "https://localhost:8080/73c95f7d55ff36fe3e9c.hot-update.json"
+    },
+    "app.cfb8066fc14a9b891139.hot-update.js": {
+      "name": "app.cfb8066fc14a9b891139.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.cfb8066fc14a9b891139.hot-update.js",
+      "publicPath": "https://localhost:8080/app.cfb8066fc14a9b891139.hot-update.js"
+    },
+    "cfb8066fc14a9b891139.hot-update.json": {
+      "name": "cfb8066fc14a9b891139.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\cfb8066fc14a9b891139.hot-update.json",
+      "publicPath": "https://localhost:8080/cfb8066fc14a9b891139.hot-update.json"
+    },
+    "app.41734fe2091255858d6b.hot-update.js": {
+      "name": "app.41734fe2091255858d6b.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.41734fe2091255858d6b.hot-update.js",
+      "publicPath": "https://localhost:8080/app.41734fe2091255858d6b.hot-update.js"
+    },
+    "41734fe2091255858d6b.hot-update.json": {
+      "name": "41734fe2091255858d6b.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\41734fe2091255858d6b.hot-update.json",
+      "publicPath": "https://localhost:8080/41734fe2091255858d6b.hot-update.json"
+    },
+    "app.198cd689cb019944316f.hot-update.js": {
+      "name": "app.198cd689cb019944316f.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.198cd689cb019944316f.hot-update.js",
+      "publicPath": "https://localhost:8080/app.198cd689cb019944316f.hot-update.js"
+    },
+    "198cd689cb019944316f.hot-update.json": {
+      "name": "198cd689cb019944316f.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\198cd689cb019944316f.hot-update.json",
+      "publicPath": "https://localhost:8080/198cd689cb019944316f.hot-update.json"
+    },
+    "app.4b11390b5b93348dd1d1.hot-update.js": {
+      "name": "app.4b11390b5b93348dd1d1.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.4b11390b5b93348dd1d1.hot-update.js",
+      "publicPath": "https://localhost:8080/app.4b11390b5b93348dd1d1.hot-update.js"
+    },
+    "4b11390b5b93348dd1d1.hot-update.json": {
+      "name": "4b11390b5b93348dd1d1.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\4b11390b5b93348dd1d1.hot-update.json",
+      "publicPath": "https://localhost:8080/4b11390b5b93348dd1d1.hot-update.json"
+    },
+    "app.9807874268957f93dd78.hot-update.js": {
+      "name": "app.9807874268957f93dd78.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.9807874268957f93dd78.hot-update.js",
+      "publicPath": "https://localhost:8080/app.9807874268957f93dd78.hot-update.js"
+    },
+    "9807874268957f93dd78.hot-update.json": {
+      "name": "9807874268957f93dd78.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\9807874268957f93dd78.hot-update.json",
+      "publicPath": "https://localhost:8080/9807874268957f93dd78.hot-update.json"
+    },
+    "app.345aded14e62d503a8c2.hot-update.js": {
+      "name": "app.345aded14e62d503a8c2.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.345aded14e62d503a8c2.hot-update.js",
+      "publicPath": "https://localhost:8080/app.345aded14e62d503a8c2.hot-update.js"
+    },
+    "345aded14e62d503a8c2.hot-update.json": {
+      "name": "345aded14e62d503a8c2.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\345aded14e62d503a8c2.hot-update.json",
+      "publicPath": "https://localhost:8080/345aded14e62d503a8c2.hot-update.json"
+    },
+    "app.7e9e72f213c15d432bdb.hot-update.js": {
+      "name": "app.7e9e72f213c15d432bdb.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.7e9e72f213c15d432bdb.hot-update.js",
+      "publicPath": "https://localhost:8080/app.7e9e72f213c15d432bdb.hot-update.js"
+    },
+    "7e9e72f213c15d432bdb.hot-update.json": {
+      "name": "7e9e72f213c15d432bdb.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7e9e72f213c15d432bdb.hot-update.json",
+      "publicPath": "https://localhost:8080/7e9e72f213c15d432bdb.hot-update.json"
+    },
+    "app.328369c74cd3de8f83e0.hot-update.js": {
+      "name": "app.328369c74cd3de8f83e0.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.328369c74cd3de8f83e0.hot-update.js",
+      "publicPath": "https://localhost:8080/app.328369c74cd3de8f83e0.hot-update.js"
+    },
+    "328369c74cd3de8f83e0.hot-update.json": {
+      "name": "328369c74cd3de8f83e0.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\328369c74cd3de8f83e0.hot-update.json",
+      "publicPath": "https://localhost:8080/328369c74cd3de8f83e0.hot-update.json"
+    },
+    "3f0730c1191c6307ce83.hot-update.json": {
+      "name": "3f0730c1191c6307ce83.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3f0730c1191c6307ce83.hot-update.json",
+      "publicPath": "https://localhost:8080/3f0730c1191c6307ce83.hot-update.json"
+    },
+    "5176504ce7b6ff096633.hot-update.json": {
+      "name": "5176504ce7b6ff096633.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\5176504ce7b6ff096633.hot-update.json",
+      "publicPath": "https://localhost:8080/5176504ce7b6ff096633.hot-update.json"
+    },
+    "app.bb7f9a430da604ee6415.hot-update.js": {
+      "name": "app.bb7f9a430da604ee6415.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.bb7f9a430da604ee6415.hot-update.js",
+      "publicPath": "https://localhost:8080/app.bb7f9a430da604ee6415.hot-update.js"
+    },
+    "bb7f9a430da604ee6415.hot-update.json": {
+      "name": "bb7f9a430da604ee6415.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\bb7f9a430da604ee6415.hot-update.json",
+      "publicPath": "https://localhost:8080/bb7f9a430da604ee6415.hot-update.json"
+    },
+    "bc5722827b56437160c5.hot-update.json": {
+      "name": "bc5722827b56437160c5.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\bc5722827b56437160c5.hot-update.json",
+      "publicPath": "https://localhost:8080/bc5722827b56437160c5.hot-update.json"
+    },
+    "7f2ce98c684b62ab8ebb.hot-update.json": {
+      "name": "7f2ce98c684b62ab8ebb.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7f2ce98c684b62ab8ebb.hot-update.json",
+      "publicPath": "https://localhost:8080/7f2ce98c684b62ab8ebb.hot-update.json"
+    },
+    "app.767278c21a600ddb4c4d.hot-update.js": {
+      "name": "app.767278c21a600ddb4c4d.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.767278c21a600ddb4c4d.hot-update.js",
+      "publicPath": "https://localhost:8080/app.767278c21a600ddb4c4d.hot-update.js"
+    },
+    "767278c21a600ddb4c4d.hot-update.json": {
+      "name": "767278c21a600ddb4c4d.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\767278c21a600ddb4c4d.hot-update.json",
+      "publicPath": "https://localhost:8080/767278c21a600ddb4c4d.hot-update.json"
+    },
+    "app.aafb8075cca040a47d0d.hot-update.js": {
+      "name": "app.aafb8075cca040a47d0d.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.aafb8075cca040a47d0d.hot-update.js",
+      "publicPath": "https://localhost:8080/app.aafb8075cca040a47d0d.hot-update.js"
+    },
+    "aafb8075cca040a47d0d.hot-update.json": {
+      "name": "aafb8075cca040a47d0d.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\aafb8075cca040a47d0d.hot-update.json",
+      "publicPath": "https://localhost:8080/aafb8075cca040a47d0d.hot-update.json"
+    },
+    "app.7f0a02cb2d04e491ecc2.hot-update.js": {
+      "name": "app.7f0a02cb2d04e491ecc2.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.7f0a02cb2d04e491ecc2.hot-update.js",
+      "publicPath": "https://localhost:8080/app.7f0a02cb2d04e491ecc2.hot-update.js"
+    },
+    "7f0a02cb2d04e491ecc2.hot-update.json": {
+      "name": "7f0a02cb2d04e491ecc2.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\7f0a02cb2d04e491ecc2.hot-update.json",
+      "publicPath": "https://localhost:8080/7f0a02cb2d04e491ecc2.hot-update.json"
+    },
+    "3e0289fdb1bd43a50be3.hot-update.json": {
+      "name": "3e0289fdb1bd43a50be3.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3e0289fdb1bd43a50be3.hot-update.json",
+      "publicPath": "https://localhost:8080/3e0289fdb1bd43a50be3.hot-update.json"
+    },
+    "app.3f9746174cde51db5f2c.hot-update.js": {
+      "name": "app.3f9746174cde51db5f2c.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.3f9746174cde51db5f2c.hot-update.js",
+      "publicPath": "https://localhost:8080/app.3f9746174cde51db5f2c.hot-update.js"
+    },
+    "3f9746174cde51db5f2c.hot-update.json": {
+      "name": "3f9746174cde51db5f2c.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\3f9746174cde51db5f2c.hot-update.json",
+      "publicPath": "https://localhost:8080/3f9746174cde51db5f2c.hot-update.json"
+    },
+    "app.a0af8d6e2a8bfb20dc38.hot-update.js": {
+      "name": "app.a0af8d6e2a8bfb20dc38.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.a0af8d6e2a8bfb20dc38.hot-update.js",
+      "publicPath": "https://localhost:8080/app.a0af8d6e2a8bfb20dc38.hot-update.js"
+    },
+    "a0af8d6e2a8bfb20dc38.hot-update.json": {
+      "name": "a0af8d6e2a8bfb20dc38.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\a0af8d6e2a8bfb20dc38.hot-update.json",
+      "publicPath": "https://localhost:8080/a0af8d6e2a8bfb20dc38.hot-update.json"
+    },
+    "app.ddefb82971a92e50e97a.hot-update.js": {
+      "name": "app.ddefb82971a92e50e97a.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.ddefb82971a92e50e97a.hot-update.js",
+      "publicPath": "https://localhost:8080/app.ddefb82971a92e50e97a.hot-update.js"
+    },
+    "ddefb82971a92e50e97a.hot-update.json": {
+      "name": "ddefb82971a92e50e97a.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\ddefb82971a92e50e97a.hot-update.json",
+      "publicPath": "https://localhost:8080/ddefb82971a92e50e97a.hot-update.json"
+    },
+    "9884f6d915ad1324a468.hot-update.json": {
+      "name": "9884f6d915ad1324a468.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\9884f6d915ad1324a468.hot-update.json",
+      "publicPath": "https://localhost:8080/9884f6d915ad1324a468.hot-update.json"
+    },
+    "app.776e1a6288cc02438a72.hot-update.js": {
+      "name": "app.776e1a6288cc02438a72.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.776e1a6288cc02438a72.hot-update.js",
+      "publicPath": "https://localhost:8080/app.776e1a6288cc02438a72.hot-update.js"
+    },
+    "776e1a6288cc02438a72.hot-update.json": {
+      "name": "776e1a6288cc02438a72.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\776e1a6288cc02438a72.hot-update.json",
+      "publicPath": "https://localhost:8080/776e1a6288cc02438a72.hot-update.json"
+    },
+    "app.89c6c9c43a8a01305fc4.hot-update.js": {
+      "name": "app.89c6c9c43a8a01305fc4.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.89c6c9c43a8a01305fc4.hot-update.js",
+      "publicPath": "https://localhost:8080/app.89c6c9c43a8a01305fc4.hot-update.js"
+    },
+    "89c6c9c43a8a01305fc4.hot-update.json": {
+      "name": "89c6c9c43a8a01305fc4.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\89c6c9c43a8a01305fc4.hot-update.json",
+      "publicPath": "https://localhost:8080/89c6c9c43a8a01305fc4.hot-update.json"
+    },
+    "app.45e512ca38e4085ae526.hot-update.js": {
+      "name": "app.45e512ca38e4085ae526.hot-update.js",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\app.45e512ca38e4085ae526.hot-update.js",
+      "publicPath": "https://localhost:8080/app.45e512ca38e4085ae526.hot-update.js"
+    },
+    "45e512ca38e4085ae526.hot-update.json": {
+      "name": "45e512ca38e4085ae526.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\45e512ca38e4085ae526.hot-update.json",
+      "publicPath": "https://localhost:8080/45e512ca38e4085ae526.hot-update.json"
+    },
+    "cc0f8e2eadd59bf692a1.hot-update.json": {
+      "name": "cc0f8e2eadd59bf692a1.hot-update.json",
+      "path": "C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\dist\\cc0f8e2eadd59bf692a1.hot-update.json",
+      "publicPath": "https://localhost:8080/cc0f8e2eadd59bf692a1.hot-update.json"
     }
   },
   "chunks": {
@@ -77,5 +962,7 @@
       "bundle.js"
     ]
   },
-  "publicPath": "https://localhost:8080/"
+  "publicPath": "https://localhost:8080/",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \"{\".\n   ╷\n58 │   @media screen (max-width: 1600px) {\n   │                 ^\n   ╵\n  C:\\Users\\lazar\\Documents\\Projekty\\bpc-bds-xlazar15\\app\\frontend\\src\\App.vue 58:17  root stylesheet"
 }
