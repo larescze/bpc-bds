@@ -3,8 +3,31 @@ The database is used for management of penetration testing. Testers can create p
 
 Semestral project repository: [https://github.com/larescze/bpc-bds-xlazar15](https://github.com/larescze/bpc-bds-xlazar15).
 
+## Features
+
+The repository includes:
+- Docker project with containers
+- Project documentation
+- PostgreSQL - Container, ERD, DDL, DML, MySQL export
+- Database migrations with Flyway
+- Advanced SQL statements with examples
+- Database automated backups
+- Web application
+   - SPA - Vue.js, TypeScript, Sass
+   - Django - app logic, DB connection, REST API 
+   - Authentication and authorization functions
+   - User roles and permissions
+   - UI for CRUD operations
+   - Secure source code
+   - SQL Injection example
+   - Logging and log files
+   - Application licence
+   - Depedencies licences
+   - Unit tests for CRUD
+   - GitHub Actions
+
 ## Docs
-TAll documentation can be found in the [docs](./docs) directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
+All documentation can be found in the [docs](./docs) directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
 
 ## SQL statements
 All advanced SQL queries can be found in the [staments](.statements) directory.
@@ -44,29 +67,6 @@ Follow these steps:
 2. Login with username **xlazar15** and password **#IloveBDS_2021**
 3. Explore the application
 4. (OPTIONAL) If you want to perform SQL Injection atttack, visit https://localhost/try-to-hack-me
-
-## Features
-
-The repository includes:
-- Docker project with containers
-- Project documentation
-- PostgreSQL - Container, ERD, DDL, DML, MySQL export
-- Database migrations with Flyway
-- Advanced SQL statements with examples
-- Database automated backups
-- Web application
-   - SPA - Vue.js, TypeScript, Sass
-   - Django - app logic, DB connection, REST API 
-   - Authentication and authorization functions
-   - User roles and permissions
-   - UI for CRUD operations
-   - Secure source code
-   - SQL Injection example
-   - Logging and log files
-   - Application licence
-   - Depedencies licences
-   - Unit tests for CRUD
-   - GitHub Actions
 
 ## Access the database
 
