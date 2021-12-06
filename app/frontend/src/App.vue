@@ -92,8 +92,12 @@ header {
 footer {
   margin: 1.25rem 18rem;
   padding: 1rem;
-  border-top: 1px solid silver;
+  // border-top: 1px solid silver;
   text-align: center;
+
+  @media (max-width: 1600px) {
+    margin: 1.25rem 8rem;
+  }
 }
 
 h1,
@@ -115,6 +119,10 @@ a {
   margin: 0 18rem;
   padding: 1.25rem 0;
   border-bottom: 1px solid silver;
+
+  @media (max-width: 1600px) {
+    margin: 0 8rem;
+  }
 }
 
 .container {
@@ -122,5 +130,9 @@ a {
   width: 100%;
   text-align: justify;
   hyphens: auto;
+
+  @media (max-width: 1600px) {
+    padding: 0 8rem;
+  }
 }
 </style>

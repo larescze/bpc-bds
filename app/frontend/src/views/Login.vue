@@ -116,13 +116,11 @@ export default {
   methods: {
     handleSubmit(isFormValid) {
       this.submitted = true;
-
       if (!isFormValid) {
         return;
       }
-
       axios
-        .post("http://localhost:8000/api/v1/token/login", {
+        .post("https://localhost/api/v1/token/login", {
           username: this.email,
           password: this.password,
         })

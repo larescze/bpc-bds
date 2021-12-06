@@ -8,7 +8,7 @@ import 'primevue/resources/themes/mdc-dark-indigo/theme.css'
 import 'primevue/resources/primevue.min.css';
 import "primeicons/primeicons.css";
 
-axios.defaults.baseURL = "https://web";
+axios.defaults.baseURL = "https://localhost";
 
 const app = createApp(App);
 
