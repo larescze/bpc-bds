@@ -8,7 +8,11 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+    
+defaults:
+  run:
+    working-directory: ./app/frontend
+    
 jobs:
   build:
 
@@ -26,6 +30,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd .\app\frontend\; npm ci
-    - run: cd .\app\frontend\; npm update
-    - run: cd .\app\frontend\; npm serve
+    - run: npm ci
+    - run: update
+    - run: npm serve
