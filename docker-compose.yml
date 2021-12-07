@@ -1,8 +1,8 @@
-version: "3.8"
+version: "3.9"
 
 services:
   xlazar15-postgres-db:
-    image: postgres:13
+    image: postgres:14
     container_name: xlazar15-db-postgres
     restart: unless-stopped
     mem_limit: 1536MB
@@ -24,6 +24,27 @@ services:
       retries: 3
     networks:
       - xlazar15-pentesting
+  xlazar15-postgres-backup:
+    container_name: xlazar15-db-backup
+    image: prodrigestivill/postgres-backup-local
+    restart: always
+    volumes:
+      - ./backup:/backups
+    networks:
+      - xlazar15-pentesting
+    depends_on:
+      - xlazar15-postgres-db
+    environment:
+      - POSTGRES_HOST=xlazar15-db-postgres
+      - POSTGRES_DB=${POSTGRES_USER:-db-pentesting}
+      - POSTGRES_USER=${POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_USER:-postgres}
+      - POSTGRES_EXTRA_OPTS=-Z9 --schema=bds --blobs
+      - SCHEDULE=@every 24h00m00s
+      - BACKUP_KEEP_DAYS=7
+      - BACKUP_KEEP_WEEKS=4
+      - BACKUP_KEEP_MONTHS=6
+      - HEALTHCHECK_PORT=81
   xlazar15-db-pgadmin4:
     image: dpage/pgadmin4:6.1
     container_name: xlazar15-db-pgadmin4
@@ -33,12 +54,46 @@ services:
       PGADMIN_DEFAULT_PASSWORD: postgres
     ports:
       - 5080:80
-    depends_on:
-      - xlazar15-postgres-db
     networks:
       - xlazar15-pentesting
+    depends_on:
+      - xlazar15-postgres-db
+  web:
+    container_name: xlazar15-web
+    restart: always
+    build: ./app
+    command: >
+      sh -c "python manage.py makemigrations &&
+             python manage.py migrate &&
+             gunicorn --certfile=./certs/cert.pem --keyfile=./certs/cert.key bds.wsgi:application --bind 0.0.0.0:443"
+    volumes:
+      - ./app/:/usr/src/app/
+      - ./config/nginx/certs/:/usr/src/app/certs
+    ports:
+      - 8000:8000
+    networks:
+      - xlazar15-pentesting
+    env_file:
+      - ./config/web/.env.dev
+    depends_on:
+      - xlazar15-postgres-db
+  nginx:
+    image: nginx:latest
+    container_name: xlazar15-xnginx
+    restart: unless-stopped
+    volumes:
+      - ./config/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./config/nginx/certs/:/etc/nginx/conf.d/certs
+    ports:
+      - 443:443
+      - 80:80
+    networks:
+      - xlazar15-pentesting
+    depends_on:
+      - web
   flyway:
-    image: flyway/flyway:8
+    image: flyway/flyway:8.1.0
+    container_name: xlazar15-flyway
     environment:
       - FLYWAY_USER=postgres
       - FLYWAY_PASSWORD=postgres
@@ -48,17 +103,7 @@ services:
     volumes:
       - ./db/migration/postgresql:/flyway/sql
     depends_on:
-      - xlazar15-postgres-db
-    networks:
-      - xlazar15-pentesting
-  nginx:
-    image: nginx:1.21.3
-    container_name: xlazar15-xnginx
-    restart: unless-stopped
-    volumes:
-      - ./configuration/nginx-reverse-proxy/nginx.conf:/etc/nginx/conf.d/default.conf
-    ports:
-      - 80:80
+      - web
     networks:
       - xlazar15-pentesting
 volumes:
