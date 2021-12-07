@@ -30,7 +30,7 @@ The repository includes:
 All documentation can be found in the [docs](./docs) directory, see file [BPC_BDS_SP_Use-case.pdf](docs/BPC_BDS_SP_Use-case.pdf).
 
 ## SQL statements
-All advanced SQL queries can be found in the [staments](.statements) directory.
+All advanced SQL queries can be found in the [statements](./statements) directory.
 
 ### PostgreSQL
 - Database schema (pgAdmin): [DB_Schema_pgAdmin.pdf](docs/DB_Schema_pgAdmin.pdf)
@@ -59,7 +59,12 @@ Download certificates:
 - [Application certificate](./certs/cert.ca)
 - [Development server certificate](./certs/localhost.ca)
 
-## Visit the application
+## Run the application
+
+Run the following command in the root directory:
+```
+cd ./app/frontend; npm install; npm run serve
+```
 
 Follow these steps:
 
